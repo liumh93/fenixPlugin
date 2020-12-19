@@ -1,0 +1,40 @@
+<idea-plugin>
+    <id>com.liumh.plugin</id>
+    <name>FenixPlugin</name>
+    <vendor email="985775676@qq.com">liumianhong</vendor>
+
+    <description>
+        <![CDATA[
+
+       a simple plugin for fenix
+       a simple plugin for fenix
+       a simple plugin for fenix
+       a simple plugin for fenix
+       a simple plugin for fenix
+    ]]>
+    </description>
+    <change-notes>
+        <![CDATA[
+        针对fenix开发的辅助工具
+      <ul>
+        <li><b>1.0.0</b> 实现dao层接口方法与fenix xml文件互相跳转</li>
+      </ul>
+    ]]>
+    </change-notes>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.java</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <codeInsight.lineMarkerProvider language="JAVA"
+                                        implementationClass="com.liumh.plugin.FenixJavaMarkerProvider"/>
+        <codeInsight.lineMarkerProvider language="XML"
+                                        implementationClass="com.liumh.plugin.FenixXmlMarkerProvider"/>
+    </extensions>
+
+    <actions>oup group-id="GenerateGroup" anchor="last"/>
+    </actions>
+</idea-plugin>
