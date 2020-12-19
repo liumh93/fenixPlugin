@@ -8,10 +8,9 @@ import com.liumh.plugin.dom.Fenixs;
 /**
  * Description:
  *
- * @author liumianhong@xiao100.com
+ * @author liumianhong
  * @date 2020-12-19
  * <p>
- * All rights Reserved, Designed www.xiao100.com
  */
 public class Utils {
 

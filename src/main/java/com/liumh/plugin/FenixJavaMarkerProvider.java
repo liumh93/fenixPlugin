@@ -23,10 +23,9 @@ import java.util.List;
 /**
  * Description:
  *
- * @author liumianhong@xiao100.com
+ * @author liumianhong
  * @date 2020-12-18
  * <p>
- * All rights Reserved, Designed www.xiao100.com
  */
 public class FenixJavaMarkerProvider extends RelatedItemLineMarkerProvider {
     @Override
